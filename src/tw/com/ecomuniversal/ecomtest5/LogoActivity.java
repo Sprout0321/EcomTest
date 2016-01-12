@@ -20,7 +20,7 @@ public class LogoActivity extends Activity {
         super.onCreate(savedInstanceState);
         relativeLayout = new RelativeLayout(activity);
         RelativeLayout.LayoutParams layoutparams = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
-		relativeLayout.setLayoutParams(layoutparams);
+        relativeLayout.setLayoutParams(layoutparams);
         setContentView(relativeLayout);
         setupViewComponent();
     }

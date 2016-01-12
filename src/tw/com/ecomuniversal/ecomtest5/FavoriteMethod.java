@@ -17,7 +17,10 @@ import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.Gravity;
+=======
+>>>>>>> EditMainActivity
 import android.widget.Toast;
 
 public class FavoriteMethod {
