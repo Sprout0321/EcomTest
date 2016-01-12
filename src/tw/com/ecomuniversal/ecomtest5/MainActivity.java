@@ -72,7 +72,7 @@ public class MainActivity extends Activity {
     }
     
     private void setupViewComponent() {
-    	scrollView = (ScrollView) activity.findViewById(R.id.activity_main_scroll_view);
+    	scrollView2 = (ScrollView) activity.findViewById(R.id.activity_main_scroll_view);
     	createLinearLayout1(stringArray);
 	}
     
@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
 		LinearLayout.LayoutParams layoutparams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 		linearLayout1.setOrientation(LinearLayout.VERTICAL);
 		linearLayout1.setLayoutParams(layoutparams);
-		scrollView.addView(linearLayout1);
+		scrollView2.addView(linearLayout1);
 		for (int i = 0; i < LinearLayout1_1Number; i++) {
 			createLinearLayout1_1(linearLayout1, 3);
 		}						
@@ -91,6 +91,7 @@ public class MainActivity extends Activity {
 			createLinearLayout1_1(linearLayout1, lastImageViewNumber);
     	createRelativeLayout2();
     	createScrollView2();
+		}
 	}
     
 	private void createRelativeLayout2() {
@@ -213,6 +214,8 @@ public class MainActivity extends Activity {
 			break;
 		case 2:
 			imageView.setBackgroundResource(R.drawable.shape_b);
+		}
+	}
 			
 	private void createLinearLayout4(Integer imageViewNumber) {
 		linearLayout4 = new LinearLayout(activity);
